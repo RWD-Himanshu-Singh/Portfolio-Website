@@ -73,12 +73,12 @@ header .logo span{
   font-size: 2.8rem;
   font-weight: 800;
   text-decoration: none;
-  color: #0e2431;
+  color: #002057;
   padding: 1rem 0;
 }
 
 header .logo span:hover {
-  color: #ed0707;
+  color: #ff7b00;
   cursor: none;
 }
 
