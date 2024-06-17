@@ -73,12 +73,12 @@ header .logo span{
   font-size: 2.8rem;
   font-weight: 800;
   text-decoration: none;
-  color: #002057;
+  color: #ff7b00;
   padding: 1rem 0;
 }
 
 header .logo span:hover {
-  color: #ff7b00;
+  color: #002057;
   cursor: none;
 }
 
@@ -341,7 +341,7 @@ header .navbar ul li a:hover {
   margin: 5rem;
   width: 30rem;
   height: 40rem;
-  border-radius: 5%;
+  /* border-radius: 5%; */
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   mix-blend-mode: normal;
   transition: 0.3s;
@@ -634,8 +634,9 @@ header .navbar ul li a:hover {
 }
 .work .box-container {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
   margin: 2rem;
 }
 .work .box-container .box {
@@ -645,6 +646,7 @@ header .navbar ul li a:hover {
   position: relative;
   overflow: hidden;
   height: 30rem;
+  width: 90%;
 }
 .work .box-container .box img {
   height: 100%;
@@ -669,7 +671,7 @@ header .navbar ul li a:hover {
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: #13edc9;
 }
 .work .box-container .box .content .tag h3 {
   font-size: 2rem;
@@ -688,7 +690,7 @@ header .navbar ul li a:hover {
 }
 .work .desc .btns {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   margin-top: 2rem;
 }
@@ -704,6 +706,16 @@ header .navbar ul li a:hover {
 }
 .work .desc .btns .btn:hover {
   background: #310ae0f5;
+}
+ 
+/* visit my github */
+
+.work .box-container .heading a{
+  color: rgb(255, 230, 0);
+}
+
+.work .box-container .heading a:hover{
+  color: #13edc9;
 }
 
 /* work section ends */
