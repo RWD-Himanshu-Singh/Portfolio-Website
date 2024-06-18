@@ -79,7 +79,7 @@ var typed = new Typed(".typing-text", {
 });
 
 var typed2 = new Typed(".typing-header", {
-    strings: ["Himanshu Singh Rajput", "Pround Indian", "Responsive WebD Intern", "Ethical Hacker"],
+    strings: ["Himanshu Singh", "Pround Indian", "Responsive WebD Intern", "Ethical Hacker"],
     loop: true,
     typeSpeed: 100,
     backSpeed: 50,
